@@ -1,0 +1,129 @@
+
+.top-bg{
+	width: 100%;
+	height:155rpx;
+	background:-webkit-linear-gradient(left,rgba(233,174,67,1),rgba(206,146,32,1),rgba(255,203,107,1),rgba(205,134,6,1),rgba(205,134,6,1),rgba(251,207,150,1),rgba(199,136,22,1));
+	background:linear-gradient(90deg,rgba(233,174,67,1),rgba(206,146,32,1),rgba(255,203,107,1),rgba(205,134,6,1),rgba(205,134,6,1),rgba(251,207,150,1),rgba(199,136,22,1));
+	padding-top: 46rpx;
+}
+.top-bg>view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+/* 抢购列表 */
+.rob-wrap{
+	margin: -80rpx 22rpx 0rpx;
+	box-sizing: border-box;
+	height:412rpx;
+	background:rgba(255,255,255,1);
+	padding: 40rpx 40rpx 60rpx;
+	box-shadow:0px 3px 8px 0px rgba(35,24,21,0.09);
+	border-radius:10px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.rob-wrap>view{
+	width: 177rpx;
+}
+.rob-wrap>view>view:nth-child(1){
+	width: 177rpx;
+	height: 177rpx;
+	border-radius: 10rpx;
+}
+.rob-wrap>view>view:nth-child(2){
+	font-size:28rpx;
+	font-weight:700;
+	color:rgba(51,51,51,1);
+	margin-top: 34rpx;
+}
+.rob-wrap>view>view:nth-child(3){
+	font-size:26rpx;
+	font-weight:700;
+	color:rgba(251,58,41,1);
+}
+.rob-product{
+	height:412px;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 3px 8px 0px rgba(35,24,21,0.09);
+	border-radius:10px;
+}
+/* 导航栏 */
+.search-box{
+	margin-top: 10rpx;
+	width:750rpx;
+	height:100rpx;
+	background:rgba(225,180,95,1);
+}
+/* 精品闪购 */
+.good-buy{
+	margin: 16rpx 22rpx 0rpx;
+}
+.goodbuy-title{
+	height: 68rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: end;
+	-webkit-align-items: flex-end;
+	        align-items: flex-end;
+}
+.goodbuy-title>view:nth-child(1){
+	width: 100rpx;
+}
+.goodbuy-title>view:nth-child(2){
+	font-size:32rpx;
+	font-weight:700;
+	color:rgba(51,51,51,1);
+}
+.goodbuy-title>view:nth-child(3){
+	width: 100rpx;
+	font-size:24rpx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(153,153,153,1);
+}
+.product-list{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin: 0rpx 18rpx;
+	padding-bottom: 40rpx;
+}
+.product-item{
+	width: 308rpx;
+	margin-top: 43rpx;
+}
+.product-item>view:nth-child(1){
+	border-radius: 10rpx;
+}
+.product-item>view:nth-child(2){
+	width: 100%;
+	font-size:28rpx;
+	font-weight:700;
+	color:rgba(51,51,51,1);
+}
+.product-item>view:nth-child(3){
+	font-size:32rpx;
+	font-weight:700;
+	color:rgba(251,70,50,1);
+}
+.active{
+	color: #FB3A29!important;
+}
+

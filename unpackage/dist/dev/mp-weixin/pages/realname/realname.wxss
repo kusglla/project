@@ -1,0 +1,35 @@
+
+.realname-page{
+	padding: 0rpx 20rpx;
+}
+.realname-page view{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	border-bottom: 1rpx solid #eeeeee;
+	padding: 30rpx 0rpx;
+}
+.realname-page view text{
+	width: 250rpx;
+	color: #333333;
+}
+.btn{
+	width: 386rpx;
+	height: 80rpx;
+	background-image: -webkit-linear-gradient(#f3be5b,#f3be5b), 
+	-webkit-linear-gradient(left, 
+		#1228f6 0%, 
+		#337bff 60%, 
+		#33b0ff 100%);
+	background-image: linear-gradient(#f3be5b,#f3be5b), 
+	linear-gradient(90deg, 
+		#1228f6 0%, 
+		#337bff 60%, 
+		#33b0ff 100%);
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 40px;
+	font-size: 34rpx;
+	color: #ffffff;
+}
+

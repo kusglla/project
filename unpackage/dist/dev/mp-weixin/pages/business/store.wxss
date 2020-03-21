@@ -1,0 +1,58 @@
+
+.top-bg{
+	width:750rpx;
+	height:215rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	        justify-content: flex-end;
+	color: #FFFFFF;
+	font-size: 24rpx;
+	padding: 30rpx;
+	box-sizing: border-box;
+}
+.message-wrap{
+	height: 350rpx;
+	width: 100%;
+	background: #FFFFFF;
+}
+.message-content{
+	text-align: center;
+}
+.message-content>view:nth-child(1){
+}
+.message-content>view:nth-child(2){
+	font-size: 32rpx;
+	color: #333333;
+	margin-top: 10rpx;
+}
+.message-content>view:nth-child(3){
+	font-size: 26rpx;
+	color: #999999;
+	margin-top: 20rpx;
+}
+.admin-wrap{
+	margin: -90rpx 45rpx;
+	padding: 30rpx 50rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	/* height:227px; */
+	background:rgba(255,255,255,1);
+	box-shadow:0px 0px 18px 2px rgba(0, 0, 0, 0.24);
+}
+.admin-wrap>view>view{
+	text-align: center;
+}
+.admin-wrap>view>view:nth-child(2){
+	margin-top: 25rpx;
+	font-size: 26rpx;
+	color: #333333;
+}
+

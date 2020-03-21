@@ -1,0 +1,6 @@
+
+.notice-text{
+	color: #666666;
+	font-size: 28rpx;
+}
+

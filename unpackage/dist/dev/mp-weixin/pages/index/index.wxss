@@ -1,0 +1,176 @@
+
+.swiper-item{
+	background-color: #4CD964;
+	height: 277rpx;
+	width: 709rpx;
+	margin: auto;
+	border-radius: 20rpx!important;
+}
+swiper{
+	height: 277rpx;
+}
+
+/* 公告栏 */
+.notice-wrap{
+	height: 80rpx;
+	width: 709rpx;
+	margin: auto;
+	padding: 25rpx 0rpx;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+
+/* 导航栏 */
+.nav-wrap{
+	height: 190rpx;
+	padding: 21rpx;
+	width: 709rpx;
+	margin: auto;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.nav-item{
+	width:102rpx;
+	height:102rpx;
+	border-radius:50%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.nav-wrap>view:nth-child(1)>.nav-item{
+	background:-webkit-linear-gradient(108deg,rgba(225,180,95,1),rgba(251,207,150,1));
+	background:linear-gradient(-18deg,rgba(225,180,95,1),rgba(251,207,150,1));
+}
+.nav-wrap>view:nth-child(2)>.nav-item{
+	background:-webkit-linear-gradient(135deg,rgba(252,107,87,1),rgba(251,56,37,1));
+	background:linear-gradient(-45deg,rgba(252,107,87,1),rgba(251,56,37,1));
+}
+.nav-wrap>view:nth-child(3)>.nav-item{
+	background:-webkit-linear-gradient(135deg,rgba(241,85,133,1),rgba(250,146,183,1));
+	background:linear-gradient(-45deg,rgba(241,85,133,1),rgba(250,146,183,1));
+}
+.nav-wrap>view:nth-child(4)>.nav-item{
+	background:-webkit-linear-gradient(135deg,rgba(112,168,254,1),rgba(72,127,254,1));
+	background:linear-gradient(-45deg,rgba(112,168,254,1),rgba(72,127,254,1));
+}
+.nav-wrap>view:nth-child(5)>.nav-item{
+	background:-webkit-linear-gradient(135deg,rgba(17,168,101,1),rgba(124,236,118,1));
+	background:linear-gradient(-45deg,rgba(17,168,101,1),rgba(124,236,118,1));
+}
+.nav-item image{
+	height: 46rpx;
+	width: 46rpx;
+}
+
+/* 购物分类 */
+.buytype-wrap{
+	width: 709rpx;
+	margin: 16rpx auto 0rpx;
+	padding: 30rpx 0rpx;
+	border-radius: 10rpx;
+	background:rgba(255,255,255,1);
+	box-shadow:0px 4px 9px 0px rgba(0, 0, 0, 0.07);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+.buytype-wrap image{
+	width: 57rpx;
+	height: 56rpx;
+	margin-top: 10rpx
+}
+.buy-item{
+	width: 125rpx;
+	text-align: center;
+	margin-top: 30rpx;
+}
+.img-bg3{
+	height: 72rpx;
+	width: 72rpx;
+	border-radius: 50%;
+	background: #FF7F3B;
+	text-align: center;
+}
+.img-bg3>image{
+	height: 39rpx;
+	width: 32rpx;
+	margin-top: 20rpx;
+}
+.img-bg7{
+	width: 66rpx;
+	height: 79rpx;
+	text-align: center;
+	background: url(data:image/png;base64,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)no-repeat;
+	background-size: 100% 100%;
+}
+.img-bg7>image{
+	height: 38rpx;
+	width: 35rpx;
+	margin-top: 15rpx;
+}
+
+/* 新品 */
+.newproducts-wrap{
+	width: 709rpx;
+	margin: auto;background:rgba(255,255,255,1);
+	box-shadow:0px 4px 9px 0px rgba(0, 0, 0, 0.07);
+	border-radius:8px;
+}
+
+/* 五星好评 */
+.goodproduct-item{
+	margin-top: 20rpx;
+}
+.goodproduct-item>view:nth-child(1){
+	width: 310rpx;
+	height: 232rpx;
+}
+.goodproduct-item>view:nth-child(2){
+	font-size:28rpx;
+	font-weight:700;
+	color:rgba(51,51,51,1);
+}
+.goodproduct-item>view:nth-child(3){
+	font-size:32rpx;
+	font-weight:bold;
+	color:rgba(249,47,59,1);
+}
+.goodproduct-item>view:nth-child(4){
+}
+
+/* 签到 */
+.sign-day{
+	width:152rpx;
+	height:62rpx;
+	background:rgba(251,65,46,1);
+	border-radius: 31rpx 0rpx 0rpx 31rpx;
+	color: #FFFFFF;
+	position: fixed;
+	right: 0rpx;
+	bottom: 200rpx;
+	text-align: center;
+	line-height: 62rpx;
+}
+
+

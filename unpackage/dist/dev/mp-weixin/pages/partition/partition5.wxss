@@ -1,0 +1,48 @@
+
+.product-wrap{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin: 0rpx 40rpx;
+	box-sizing: border-box;
+}
+.product-item{
+	width: 310rpx;
+	margin-top: 41rpx;
+}
+.product-item>view:nth-child(1){
+	width: 308rpx;
+	height: 223rpx;
+	border-radius: 10rpx;
+}
+.product-item>view:nth-child(2){
+	font-size:28rpx;
+	font-weight:700;
+	color:rgba(51,51,51,1);
+	margin-top: 25rpx;
+}
+.product-item>view:nth-child(3){
+	font-size:32rpx;
+	font-weight:700;
+	color:rgba(251,70,50,1);
+	margin-top: 25rpx;
+}
+.product-item>view:nth-child(4){
+	font-size:24rpx;
+	font-weight:700;
+	color:rgba(153,153,153,1);
+	margin-top: 7rpx;
+}
+
+/* 搜索栏 */
+.search-box{
+	width:750rpx;
+	height:101rpx;
+	background:rgba(225,180,95,1);
+}
+

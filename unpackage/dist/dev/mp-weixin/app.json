@@ -1,0 +1,77 @@
+{
+  "pages": [
+    "pages/business/store",
+    "pages/business/moneyadmin",
+    "pages/business/passadmin",
+    "pages/business/storeadmin",
+    "pages/business/myinfo",
+    "pages/index/index",
+    "pages/sign/sign",
+    "pages/account/account",
+    "pages/detail/detail",
+    "pages/storedetail/storedetail",
+    "pages/partition/partition1",
+    "pages/cart/cart",
+    "pages/nav/nav1",
+    "pages/order/detail",
+    "pages/order/order",
+    "pages/activity/activity",
+    "pages/nav/nav5",
+    "pages/nav/nav4",
+    "pages/nav/nav3",
+    "pages/nav/nav2",
+    "pages/notice/notice",
+    "pages/mine/mine",
+    "pages/extension/extension",
+    "pages/realname/realname",
+    "pages/partition/partition5",
+    "pages/partition/partition9"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#eaa955",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "111px",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabbar/home-active.png",
+        "selectedIconPath": "static/tabbar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "iconPath": "static/tabbar/activity.png",
+        "selectedIconPath": "static/tabbar/activity.png",
+        "text": "活动"
+      },
+      {
+        "pagePath": "pages/extension/extension",
+        "iconPath": "static/tabbar/extension.png",
+        "selectedIconPath": "static/tabbar/extension.png",
+        "text": "推广"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/tabbar/cart.png",
+        "selectedIconPath": "static/tabbar/cart.png",
+        "text": "购物车"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "static/tabbar/mine.png",
+        "selectedIconPath": "static/tabbar/mine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

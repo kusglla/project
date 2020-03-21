@@ -1,0 +1,214 @@
+{
+	"pages": [
+		{
+			"path": "pages/business/store",
+			"style": {
+				"navigationBarTitleText":"商家详情",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+			"path": "pages/business/moneyadmin",
+			"style": {
+				"navigationBarTitleText":"财务管理"
+			}
+		},
+		{
+			"path": "pages/business/passadmin",
+			"style": {
+				"navigationBarTitleText":"审核管理"
+			}
+		},
+		{
+			"path": "pages/business/storeadmin",
+			"style": {
+				"navigationBarTitleText":"商家管理"
+			}
+		},
+		{
+			"path": "pages/business/myinfo",
+			"style": {
+				"navigationBarTitleText":"代理信息"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText":"主页",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/sign/sign",
+		    "style" : {
+				"navigationBarTitleText":"签到",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/account/account",
+			"style" : {
+				"navigationBarTitleText":"结算",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/detail/detail",
+		    "style" : {
+				"navigationBarTitleText":"商品详情"
+			}
+		},
+		{
+		    "path" : "pages/storedetail/storedetail",
+		    "style" : {
+				"navigationBarTitleText":"店铺详情"
+			}
+		},
+		{
+		    "path" : "pages/partition/partition1",
+		    "style" : {
+				"navigationBarTitleText":"超市百货"
+			}
+		},
+		{
+		    "path" : "pages/cart/cart",
+		    "style" : {
+				"navigationBarTitleText":"购物车",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/nav/nav1",
+		    "style" : {
+				"navigationBarTitleText":"质惠商城",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/order/detail",
+		    "style" : {
+		    	"navigationBarTitleText":"订单详情"
+		    }
+		},
+		{
+		    "path" : "pages/order/order",
+		    "style" : {
+		    	"navigationBarTitleText":"订单"
+		    }
+		},
+		{
+		    "path" : "pages/activity/activity",
+		    "style" : {
+		    	"navigationBarTitleText":"活动",
+		    	"navigationBarBackgroundColor":"#e9ae43"
+		    }
+		},
+		{
+		    "path" : "pages/nav/nav5",
+		    "style" : {
+				"navigationBarTitleText":"分享赚呗"
+			}
+		},
+		{
+		    "path" : "pages/nav/nav4",
+		    "style" : {
+				"navigationBarTitleText":"厂商直供",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/nav/nav3",
+		    "style" : {
+				"navigationBarTitleText":"云商嗨购"
+			}
+		},
+		{
+		    "path" : "pages/nav/nav2",
+		    "style" : {
+				"navigationBarTitleText":"特惠专区"
+			}
+		},
+		{
+		    "path" : "pages/notice/notice",
+		    "style" : {
+				"navigationBarTitleText":"公告详情",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/mine/mine",
+		    "style" : {
+				"navigationBarTitleText":"个人中心",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+            "path" : "pages/extension/extension",
+			"style" : {
+				"navigationBarTitleText":"推广",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+        },
+		{
+		    "path" : "pages/realname/realname",
+			"style" : {
+				"navigationBarTitleText":"实名验证",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		},
+		{
+		    "path" : "pages/partition/partition5",
+		    "style" : {
+				"navigationBarTitleText":"服饰专区"
+			}
+		},
+		{
+		    "path" : "pages/partition/partition9",
+		    "style" : {
+				"navigationBarTitleText":"便民专区",
+				"navigationBarBackgroundColor":"#e9ae43"
+			}
+		}
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		// "navigationStyle":"custom"
+	},
+	
+	"tabBar": {
+	    "color": "#333333",
+	    "selectedColor": "#eaa955",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+		"height":"111px",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tabbar/home-active.png",
+			"selectedIconPath": "static/tabbar/home-active.png",
+	        "text": "首页"
+	    }, {
+			"pagePath": "pages/activity/activity",
+			"iconPath": "static/tabbar/activity.png",
+	        "selectedIconPath": "static/tabbar/activity.png",
+	        "text": "活动"
+	    },{
+	        "pagePath": "pages/extension/extension",
+	        "iconPath": "static/tabbar/extension.png",
+			"selectedIconPath": "static/tabbar/extension.png",
+	        "text": "推广"
+	    },{
+	        "pagePath": "pages/cart/cart",
+	        "iconPath": "static/tabbar/cart.png",
+			"selectedIconPath": "static/tabbar/cart.png",
+	        "text": "购物车"
+	    },{
+	        "pagePath": "pages/mine/mine",
+	        "iconPath": "static/tabbar/mine.png",
+			"selectedIconPath": "static/tabbar/mine.png",
+	        "text": "我的"
+	    }]
+	}
+}
